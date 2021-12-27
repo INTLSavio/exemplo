@@ -1,0 +1,36 @@
+header {
+    height: 8vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header > img {
+    height: 30px;
+    width: 100px;
+}
+
+.links {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px;
+}
+
+a + a {
+    margin-left: 20px;
+}
+
+.link-button {
+    background: blue;
+    border-radius: 16px;
+    color: white;
+    font-weight: bold;
+}
+    
